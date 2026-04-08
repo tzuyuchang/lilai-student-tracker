@@ -1,0 +1,8 @@
+# 忽略 React 依賴與編譯檔
+react-app/node_modules/
+react-app/dist/
+react-app/.env
+
+# 忽略系統自動生成的無用檔案
+.DS_Store
+Thumbs.db
