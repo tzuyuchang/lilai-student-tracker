@@ -1,8 +1,57 @@
-# 忽略 React 依賴與編譯檔
-react-app/node_modules/
-react-app/dist/
-react-app/.env
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
 
-# 忽略系統自動生成的無用檔案
+# Build outputs
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Firebase
+.firebase
+.firebaserc
+firestore.rules
+firestore.indexes.json
+storage.rules
+
+# Temporary files
+*.tmp
+*.temp
+
+# Import scripts (optional - keep if you want to re-import)
+# import-schools-web.js
+
+# Documentation (optional)
+*.md
+!README.md
